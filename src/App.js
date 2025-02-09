@@ -1,14 +1,9 @@
+// src/App.js
 import React from 'react';
-import './App.css';
-import './index.css';
-import MainComponent from './components/MainComponent';
+import Calculator from './components/Calculator';
 
-function App() {
-  return (
-    <div className="App">
-      <MainComponent />
-    </div>
-  );
-}
+const App = () => (
+  <Calculator />
+);
 
 export default App;
